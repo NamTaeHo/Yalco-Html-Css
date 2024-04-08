@@ -1,0 +1,7 @@
+ul {
+  list-style: circle;
+}
+
+ul > li:first-child{
+  list-style: url('https://image.fi.co.kr/imgdata/932/%EB%94%94%EC%BB%A411(2)(0).jpg')
+}
