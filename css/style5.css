@@ -1,0 +1,7 @@
+html { font-size: 14px;}
+div {font-size: 2rem;}
+p { 
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #d51313;
+}
