@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style40301.css">
+</head>
+<body>
+  <div class="blue">
+    <span class="class-label">.blue</span>
+    바깥쪽 부모
+    <div>
+      속성값을 따로 지정하지 않은 자식은 부모의 속성값을 물려받습니다.
+      <div>
+        상속되는 속성들의 값은 그 아래 후손들에게도 전달되죠.
+      </div>
+    </div>
+    <div class="green">
+      <span class="class-label">.green</span>
+      자식 대에서 다른 속성값을 특정하면 부모의 것을 덮어쓰게 됩니다.
+      <div>
+        이 역시 후손들에게 대물림됩니다.
+        <div class="red">
+          <span class="class-label">.red</span>
+          역시 이처럼 다른 값으로 특정되기까지 말이죠.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
