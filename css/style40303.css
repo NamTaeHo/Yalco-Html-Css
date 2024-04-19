@@ -1,0 +1,7 @@
+.parent { color: slateblue; }
+.parent > div { color: olivedrab; }
+.parent :last-child { color: unset; }
+
+p:not(:first-child) {
+  display: unset;
+}

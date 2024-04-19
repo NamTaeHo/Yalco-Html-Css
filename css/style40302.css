@@ -1,0 +1,6 @@
+.parent {
+  font-weight: bold;
+  color: slateblue;
+}
+.parent > div { color: olivedrab; }
+.parent > :last-child { color: inherit; }
