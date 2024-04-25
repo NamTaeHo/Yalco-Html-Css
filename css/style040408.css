@@ -1,0 +1,12 @@
+.blue {
+  float: none;
+}
+.red {
+  float: left;
+}
+.green {
+  float: right;
+}
+.gray {
+  clear: both;
+}
