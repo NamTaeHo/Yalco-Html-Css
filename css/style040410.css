@@ -1,0 +1,18 @@
+.result > div {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  background-color: lightblue;
+}
+.result > div:nth-of-type(2),
+.result > div:nth-of-type(7) {
+  width: 500px;
+}
+.result > div:nth-of-type(4),
+.result > div:nth-of-type(5) {
+  height: 500px;
+}
+.result > img {
+  vertical-align: top;
+  transform:scale(1.5) rotate(25deg) translate(50px, 50px);
+}
